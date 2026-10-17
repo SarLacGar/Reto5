@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Reto1</string>
+    <string name="Txt_componentes">Ejemplo de componentes Android</string>
+    <string name="Txt_Android">Android</string>
+    <string name="Txt_mostrar_información">Componentes para mostrar información</string>
+    <string name="Txt_se_muestra_TextView.">Este texto se muestra mediante un TextView.</string>
+    <string name="Txt_Progreso">Progreso: 50%</string>
+    <string name="Txt_VideoView">VideoView</string>
+    <string name="Txt_WebView">WebView</string>
+    <string name="Txt_Developers">Developers</string>
+    <string name="Txt_Celebrating_5">Celebrating 5</string>
+    <string name="Txt_Years">Years</string>
+    <string name="Txt_of_Jetpack">of Jetpack</string>
+    <string name="Txt_Compose">Compose!</string>
+    <string name="Txt_ComponentesEntrada">Componentes de entrada e interacción</string>
+    <string name="Txt_SeleccionaTecnologias">Selecciona tecnologias:</string>
+    <string name="Txt_Selecciona_Modalidad">Selecciona una modalidad:</string>
+    <string name="RB_Presencial">Presencial</string>
+    <string name="RB_Online">Online</string>
+    <string name="RB_Mixta">Mixta</string>
+    <string name="Txt_View_Notificaciones">Notificaciones</string>
+    <string name="Txt_View_Selecciona_curso">Selecciona un curso:</string>
+    <string name="Txt_View_Nivel_seleccionado">Nivel seleccionado: 50</string>
+    <string name="B_Guardar_información">Guardar información</string>
+    <string name="Txt_View_Aquí_aparecerá">Aquí aparecerá el resultado.</string>
+    <string name="Text_View_Contactar">Contactar</string>
+</resources>
