@@ -244,22 +244,26 @@
 
 
         <RadioGroup
+            android:id="@+id/radioGroup_tipo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/rb_presencial"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="@string/RB_Presencial" />
 
             <RadioButton
+                android:id="@+id/rb_online"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/RB_Online" />
 
             <RadioButton
+                android:id="@+id/rb_mixta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/RB_Mixta" />

@@ -7,9 +7,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.CheckBox
 import android.util.Log
-
+import android.widget.RadioGroup
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -40,6 +41,17 @@ class MainActivity : AppCompatActivity() {
         check3.setOnCheckedChangeListener { _, isChecked ->
             Log.d("CHECKBOXES", "Opción 3 marcada: $isChecked")
         }
+
+        val radioGroup = findViewById<RadioGroup>(R.id.radioGroup_tipo)
+
+        radioGroup.setOnCheckedChangeListener { group, checkedId ->
+            when (checkedId) {
+                R.id.rb_presencial -> Log.d("RADIO", "Seleccionado: Presencial")
+                R.id.rb_online     -> Log.d("RADIO", "Seleccionado: Online")
+                R.id.rb_mixta      -> Log.d("RADIO", "Seleccionado: Mixta")
+            }
+        }
+
     }
 }
 
