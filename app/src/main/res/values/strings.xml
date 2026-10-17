@@ -24,4 +24,7 @@
     <string name="B_Guardar_información">Guardar información</string>
     <string name="Txt_View_Aquí_aparecerá">Aquí aparecerá el resultado.</string>
     <string name="Text_View_Contactar">Contactar</string>
+    <string name="CheckBox_Android">Android</string>
+    <string name="CheckBox_React">React</string>
+    <string name="CheckBox_Flutter">Flutter</string>
 </resources>

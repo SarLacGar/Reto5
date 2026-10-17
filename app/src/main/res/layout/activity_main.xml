@@ -209,19 +209,22 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/CheckBOx_Android"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Android" />
+            android:text="@string/CheckBox_Android" />
 
         <CheckBox
+            android:id="@+id/CheckBOx_React"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="React" />
+            android:text="@string/CheckBox_React" />
 
         <CheckBox
+            android:id="@+id/CheckBOx_Flutter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Flutter" />
+            android:text="@string/CheckBox_Flutter" />
 
         <TextView
             android:layout_width="wrap_content"
